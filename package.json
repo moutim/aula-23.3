@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelos especialistas da Trybe.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+  },
+  "jest": {
+    "rootDir": "./test/"
   },
   "repository": {
     "type": "git",
