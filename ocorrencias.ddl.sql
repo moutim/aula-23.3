@@ -13,7 +13,7 @@ CREATE TABLE `endereco` (
 
 INSERT INTO `endereco` 
 	(`id_endereco`, `logradouro`, `numero`, `bairro`, `cep`) 
-VALUES (1 'Av Paulista', '1578', 'Bela Vista', '01310-200'),
+VALUES (1, 'Av Paulista', '1578', 'Bela Vista', '01310-200'),
 (2, 'Rua da Cantareira', '306', 'Centro Histórico', '01024-900');
 
 CREATE TABLE `ocorrencias` (
